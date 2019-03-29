@@ -21,8 +21,8 @@ emailElem.send_keys(Keys.ENTER)
 
 print('Waiting a second...')
 time.sleep(5)
-passwordElem = browser.find_element_by_name(input('enter your password: '))
-passwordElem.send_keys('hunter2!')
+passwordElem = browser.find_element_by_name('password')
+passwordElem.send_keys(input('enter your password: '))
 passwordElem.send_keys(Keys.ENTER)
 
 # Open new email and send cmd line text to given email address
