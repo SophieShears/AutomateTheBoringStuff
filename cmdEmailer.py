@@ -1,5 +1,6 @@
 #! python3.6
 # Command Line Emailer
+# A program that takes an email of your choice and sends a email with your message via command line.
 import sys, time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
